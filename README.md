@@ -28,6 +28,7 @@ Además, el proyecto permite mostrar de forma organizada el perfil profesional d
 
 El proyecto está organizado de la siguiente forma:
 
+```txt
 src/
 ├── app/
 │   ├── page.tsx
@@ -61,6 +62,17 @@ src/
 │
 ├── data/
 │   └── portfolioData.ts
+```
+
+### Descripción de carpetas
+
+- `app/`: contiene la página principal, el layout general y los estilos globales.
+- `components/`: contiene todos los componentes reutilizables del proyecto.
+- `components/atoms/`: contiene componentes pequeños como botones, barras de progreso, títulos e íconos.
+- `components/molecules/`: contiene componentes compuestos como tarjetas de habilidades, conocimientos, educación y proyectos.
+- `components/organisms/`: contiene secciones completas de la interfaz, como los menús laterales, perfil, educación, portafolio y footer.
+- `components/ui/`: contiene componentes de interfaz general, como el modal.
+- `data/`: contiene la información central del portafolio, como datos personales, habilidades, educación, proyectos y redes sociales.
 
 ## Organización por Atomic Design
 
@@ -114,13 +126,13 @@ Cada proyecto tiene una imagen, un título, una descripción corta y un botón p
 Para ejecutar el proyecto de forma local, primero se debe clonar el repositorio:
 
 ```bash
-git clone URL_DEL_REPOSITORIO
+git clone https://github.com/202601-Ingenieria-Web/yeison-ochoa-portafolio.git
 ```
 
 Luego se entra a la carpeta del proyecto:
 
 ```bash
-cd nombre-del-proyecto
+cd yeison-ochoa-portafolio
 ```
 
 Después se instalan las dependencias:
@@ -141,26 +153,6 @@ El proyecto estará disponible en:
 http://localhost:3000
 ```
 
-## Comandos disponibles
-
-### Ejecutar en modo desarrollo
-
-```bash
-npm run dev
-```
-
-### Generar versión de producción
-
-```bash
-npm run build
-```
-
-### Ejecutar versión de producción
-
-```bash
-npm start
-```
-
 ## Despliegue
 
 El proyecto será desplegado en Vercel.
@@ -168,7 +160,7 @@ El proyecto será desplegado en Vercel.
 Enlace del despliegue:
 
 ```txt
-https://nombre-apellidos.vercel.app
+https://yeison-ochoa.vercel.app/
 ```
 
 ## Repositorio
@@ -176,7 +168,7 @@ https://nombre-apellidos.vercel.app
 Enlace del repositorio:
 
 ```txt
-https://github.com/yeison8a/nombre-apellidos-portafolio
+https://github.com/yeison8a/yeison-ochoa-portafolio
 ```
 
 ## Autor
