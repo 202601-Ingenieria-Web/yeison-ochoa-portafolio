@@ -43,17 +43,20 @@ export default function LeftSidebar() {
             {personalInfo.city}
           </p>
 
-          <p className="flex items-center gap-3">
-            <Phone className="h-4 w-4 text-sky-400" />
-            {personalInfo.phone}
-          </p>
 
           <p className="flex items-center gap-3 break-all">
             <Mail className="h-4 w-4 text-sky-400" />
             {personalInfo.email}
           </p>
         </div>
+
+        <div className="mt-4 flex items-center gap-3 text-sm text-slate-300">
+          <Phone className="h-4 w-4 text-sky-400" />
+          {personalInfo.phone}
+        </div>
       </div>
+
+      
 
       {/* Idiomas */}
       <div className="mb-8 border-t border-slate-800 pt-6">
